@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Bookmark</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-5">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo-bookmark.svg" alt="logo-bookmark">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a class="nav-text" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a class="nav-text" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a class="nav-text" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn login-button me-lg-5 px-lg-4" href="#" role="button">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="container d-flex align-items-center py-5 mt-5">
+            <div class="row d-flex flex-wrap-reverse">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center text-center text-lg-start">
+                    <div class="container-lg">
+                        <h1>A Simple Bookmark Manager</h1>
+                        <p class="pe-lg-5">
+                            A clean and simple interface to organize your favourite websites. Open a new
+                            browser tab and see your sites load instantly. Try it for free.
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn button-design-1 px-3">
+                                    Get it on Chrome
+                                </button>
+                                <button class="btn button-design-2 px-3">
+                                    Get it on Firefox
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img class="w-100" src="./images/illustration-hero.svg" alt="illustration-hero">
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5 mt-5">
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-items-center text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-6">
+                                <h2 class="m-2">Features</h2>
+                                <p>
+                                    Our aim is to make it quick and easy for you to access your favourite websites.
+                                    Your bookmarks sync between your devices so you can access them on the go.
+                                </p>
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="container-fluid d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center button-container">
+                        <div class="col-12 col-lg-4 p-0">
+                            <button class="btn p-2 w-100 rounded-0 button" id="btn-1">Simple Bookmarking</button>
+                        </div>
+                        <div class="col-12 col-lg-4 p-0">
+                            <button class="btn p-2 w-100 rounded-0 button" id="btn-2">Speedy Searching</button>
+                        </div>
+                        <div class="col-12 col-lg-4 p-0">
+                            <button class="btn p-2 w-100 rounded-0 button" id="btn-3">Easy Sharing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="box-1" class="row my-5">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 d-flex d-lg-block justify-content-center">
+                        <img class="w-100" src="./images/illustration-features-tab-1.svg"
+                            alt="illustration-features-tab-1">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <div class="container w-100 h-100 ms-lg-5">
+                            <div class="row h-100 d-grid align-items-center">
+                                <div class="col-12 col-lg-10 p-0 p-lg-4">
+                                    <h2 class="w-100">Bookmark in one click</h2>
+                                    <p>
+                                        Organize your bookmarks however you like. Our simple drag-and-drop interface
+                                        gives you complete control over how you manage your favourite sites.
+                                    </p>
+                                    <div>
+                                        <button class="btn button-design-1">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="box-2" class="row my-5">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 d-flex d-lg-block justify-content-center">
+                        <img class="w-75" src="./images/illustration-features-tab-2.svg"
+                            alt="illustration-features-tab-2">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <div class="container w-100 h-100 ms-lg-5">
+                            <div class="row h-100 d-grid align-items-center">
+                                <div class="col-12 col-lg-10 p-0 p-lg-4">
+                                    <h2 class="w-100">Intelligent search</h2>
+                                    <p>
+                                        Our powerful search feature will help you find saved sites in no time at all.
+                                        No need to trawl through all of your bookmarks.
+                                    </p>
+                                    <div>
+                                        <button class="btn button-design-1">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="box-3" class="row my-5">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 d-flex d-lg-block justify-content-center">
+                        <img class="w-75" src="./images/illustration-features-tab-3.svg"
+                            alt="illustration-features-tab-3">
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <div class="container w-100 h-100 ms-lg-5">
+                            <div class="row h-100 d-grid align-items-center">
+                                <div class="col-12 col-lg-10 p-0 p-lg-4">
+                                    <h2 class="w-100">Share your bookmarks</h2>
+                                    <p>
+                                        Easily share your bookmarks and collections with others. Create a shareable
+                                        link that you can send at the click of a button.
+                                    </p>
+                                    <div>
+                                        <button class="btn button-design-1">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5 mt-5 container-extension">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-12 col-lg-6 px-lg-5 text-center">
+                    <h3>Download the extension</h3>
+                    <p>
+                        We’ve got more browsers in the pipeline. Please do let us know if you’ve
+                        got a favourite you’d like us to prioritize.
+                    </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+
+            <div class="row d-lg-flex justify-content-center h-100">
+
+                <div class="col-12 col-lg-4 d-lg-flex justify-content-end align-items-lg-start p-0">
+                    <div class="shadow-lg d-flex flex-column text-center align-items-center py-5 px-4 my-4">
+                        <div class="w-75 text-nowrap">
+                            <img class="w-50 my-2" src="./images/logo-chrome.svg" alt="">
+                            <h3 class="my-2">Add to Chrome</h3>
+                            <p class="version-text">Minimum version 62</p>
+                        </div>
+                        <div class="pt-4">
+                            <button class="btn button-design-1">
+                                Add & Install Extension
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 d-lg-flex justify-content-center align-items-lg-center p-0">
+                    <div class="shadow-lg d-flex flex-column text-center align-items-center py-5 px-4 my-4">
+                        <div class="w-75">
+                            <img class="w-50 my-2" src="./images/logo-firefox.svg" alt="">
+                            <h3 class="my-2">Add to Firefox</h3>
+                            <p class="version-text">Minimum version 55</p>
+                        </div>
+                        <div class="pt-4">
+                            <button class="btn button-design-1">
+                                Add & Install Extension
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 d-lg-flex justify-content-start align-items-lg-end p-0">
+                    <div class="shadow-lg d-flex flex-column text-center align-items-center py-5 px-4 my-4">
+                        <div class="w-75">
+                            <img class="w-50 my-2" src="./images/logo-opera.svg" alt="">
+                            <h3 class="my-2">Add to Opera</h3>
+                            <p class="version-text">Minimum version 46</p>
+                        </div>
+                        <div class="pt-4">
+                            <button class="btn button-design-1">
+                                Add & Install Extension
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 py-5">
+            <div class="row">
+
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 text-center px-lg-5">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>
+                        Here are some of our FAQs. If you have any other questions you’d like
+                        answered please feel free to email us.
+                    </p>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+                <!-- Question 1 -->
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 px-lg-5">
+                    <button class="btn w-100 text-start ps-0 d-flex w-100 flex-row align-items-center" id="btn-4">
+                        <span class="w-75">What is Bookmark?</span>
+                        <span class="w-25 d-flex justify-content-end align-content-center" id="arrow-1"><img
+                                src="./images/icon-arrow.svg" alt=""></span>
+                    </button>
+                    <!-- Answer 1 -->
+                    <div id="content-1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+                            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+                <!-- Question 2 -->
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 px-lg-5">
+                    <button class="btn w-100 text-start ps-0 d-flex w-100 flex-row align-items-center" id="btn-5">
+                        <span class="w-75">How can I request a new browser?</span>
+                        <span class="w-25 d-flex justify-content-end align-content-center" id="arrow-2"><img
+                                src="./images/icon-arrow.svg" alt=""></span>
+                    </button>
+                    <!-- Answer 2 -->
+                    <div id="content-2">
+                        <p>
+                            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+                            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+                            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+                <!-- Question 3 -->
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 px-lg-5">
+                    <button class="btn w-100 text-start ps-0 d-flex w-100 flex-row align-items-center" id="btn-6">
+                        <span class="w-75">Is there a mobile app?</span>
+                        <span class="w-25 d-flex justify-content-end align-content-center" id="arrow-3"><img
+                                src="./images/icon-arrow.svg" alt=""></span>
+                    </button>
+                    <!-- Answer 3 -->
+                    <div id="content-3">
+                        <p>
+                            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut
+                            condimentum
+                            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+                            sollicitudin ex et ultricies bibendum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+                <!-- Question 4 -->
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 px-lg-5">
+                    <button class="btn w-100 text-start ps-0 d-flex w-100 flex-row align-items-center" id="btn-7">
+                        <span class="w-75">What about other Chromium browsers?</span>
+                        <span class="w-25 d-flex justify-content-end align-content-center" id="arrow-4"><img
+                                src="./images/icon-arrow.svg" alt=""></span>
+                    </button>
+                    <!-- Answer 4 -->
+                    <div id="content-4">
+                        <p>
+                            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui.
+                            Aliquam
+                            itae neque eget nisl gravida pellentesque non ut velit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center my-3">
+                    <button class="btn button-design-1">More Info</button>
+                </div>
+                <div class="col-1 col-lg-3"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid footer-card">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="my-5 footer-text">35,000+ ALREADY JOINED</div>
+                    <form class="my-5 d-flex flex-column">
+                        <label for="email">
+                            <h2>Stay up-to-date with what we're doing</h2>
+                        </label>
+                        <div class="d-flex my-5 w-100 justify-content-center justify-content-lg-start flex-wrap flex-lg-nowrap">
+                            <div class="email-input">
+                                <input name="email" id="email" placeholder="Enter your email">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn login-button">Contact Us</button>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="mailto:santiagovalencialeon@gmail.com" id="contact0">CONTACT</a>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+
+        <div class="py-4">
+            <div
+                class="container-lg d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start align-items-center">
+                <div class="m-3 my-lg-0">
+                    <img class="invert-color" src="./images/logo-bookmark-white.svg" alt="logo-bookmark">
+                </div>
+                <div class="d-flex align-items-center">
+                    <ul class="d-flex flex-column flex-lg-row justify-content-center align-items-center m-0 p-0">
+                        <li class="d-lg-flex align-items-center mx-4 my-3 my-lg-0">
+                            <a class="foot-text" href="#">FEATURES</a>
+                        </li>
+                        <li class="d-lg-flex align-items-center mx-4 my-3 my-lg-0">
+                            <a class="foot-text" href="#">PRICING</a>
+                        </li>
+                        <li class="d-lg-flex align-items-center mx-4 my-3 my-lg-0">
+                            <a class="foot-text" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-100 d-flex justify-content-center justify-content-lg-end">
+                    <img class="icon-color mx-2" src="./images/icon-facebook.svg" alt="">
+                    <img class="icon-color mx-2" src="./images/icon-twitter.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="./scripts/sript.js" type="module"></script>
+</body>
+
+</html>

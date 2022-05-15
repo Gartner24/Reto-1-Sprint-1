@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+
+    --main-bg-color: #ffffff;
+    --primary-color-soft-blue: #5368df;
+    --primary-color-soft-red: #fa5757;
+    --neutral-grayish-blue: hsl(229, 8%, 60%);
+    --neutral-very-dark-blue: hsl(229, 31%, 21%);
+
+    --main-text-size: 18px;
+    --secondary-text-size: 45px;
+    --main-text-font: 'Rubik', sans-serif;
+    --main-text-weight: 400;
+    --secondary-text-weight: 500;
+
+}
+
+* {
+    font-family: var(--main-text-font);
+    font-weight: var(--main-text-weight);
+    font-size: var(--main-text-size);
+}
+
+p {
+    font-family: var(--main-text-font);
+    font-weight: var(--main-text-weight);
+    color: var(--neutral-grayish-blue);
+}
+
+ul, li {
+    list-style: none;
+}
+
+.button-design-1 {
+    background-color: var(--primary-color-soft-blue);
+    color: white;
+}
+
+.button-design-1:hover {
+    background-color: transparent;
+    color: var(--primary-color-soft-blue);
+    border: 2px solid var(--primary-color-soft-blue);
+}
+
+.button-design-2 {
+    background-color: #F7F7F7;
+}
+
+.button-design-2:hover {
+    background-color: transparent;
+    color: var(--neutral-very-dark-blue);
+    border: 2px solid #5E606C;
+}
+
+.button {
+    background-color: transparent;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.button:hover {
+    color: var(--primary-color-soft-red);
+}
+
+.nav-text {
+    text-decoration: none;
+    color: var(--neutral-very-dark-blue);
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+
+.nav-text:hover {
+    color: var(--primary-color-soft-red);
+}
+
+.login-button {
+    background-color: var(--primary-color-soft-red);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: var(--primary-color-soft-red);
+    border: 2px solid var(--primary-color-soft-red);
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.version-text {
+    font-size: small;
+}
+
+.active {
+    border-bottom: 5px solid var(--primary-color-soft-red);
+}
+
+.FAQ {
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+#btn-4:hover, #btn-5:hover, #btn-6:hover, #btn-7:hover {
+    color: var(--primary-color-soft-red);
+}
+
+@media only screen and (min-width: 1200px) {
+    .container-extension {
+        height: 70vh;
+    }
+    .button-container {
+        width: 50%;
+    }
+
+    .footer-card button {
+        width: 35%;
+    }
+
+    .email-input {
+        margin-left: 40px;
+        width: 60%;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .footer-card input, .footer-card button{
+        width: 100%;
+    }
+}
+
+#contact0 {
+    opacity: 0;
+}
+
+#btn-4, #btn-5, #btn-6, #btn-7 {
+    font-weight: var(--secondary-text-weight);
+    height: 4rem;
+}
+
+#content-1 p, #content-2 p, #content-3 p, #content-4 p {
+    font-weight: var(--main-text-weight);
+    color: hsl(229, 19%, 38%);
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.footer-card {
+    color: white;
+    background-color: var(--primary-color-soft-blue);
+}
+
+.footer-text {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+}
+
+.footer-card input {
+    background-color: white;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+
+footer {
+    background-color: var(--neutral-very-dark-blue);
+}
+
+.foot-text {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+}
+
+.foot-text:hover {
+    color: var(--primary-color-soft-red);
+}
+
+.icon-color:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(47%) sepia(65%) saturate(1750%) hue-rotate(328deg) brightness(106%) contrast(96%);
+}
+input {
+    border: none;
+    color: black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+input:focus {
+    outline: none;
+    color: black;
+}
+
+.error {
+    color: var(--primary-color-soft-red);
+    border: 3px solid var(--primary-color-soft-red);
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position:95%;
+    background-position-y: center;
+}
